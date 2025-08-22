@@ -23,21 +23,27 @@ This project implements a reusable, accessible, and responsive DataTable compone
 
 ## 🚀 Setup Instructions
 
+````markdown
 1. **Clone the repo:**
+
    ```sh
-   git clone https://github.com/your-username/datatable-project.git
-   cd datatable-project
+   git clone https://github.com/ItsTechUtsav/DataTable-Project.git
+   cd DataTable-Project
+
    ```
 
 2. **Install dependencies:**
    ```sh
    npm install
    ```
+````
 
 3. **Run Storybook:**
+
    ```sh
    npm run storybook
    ```
+
    Open [http://localhost:6006](http://localhost:6006) to view the component demos.
 
 4. **Run tests:**
@@ -75,7 +81,7 @@ const data: User[] = [
   selectable
   loading={false}
   onRowSelect={(selected) => console.log(selected)}
-/>
+/>;
 ```
 
 ---
@@ -140,10 +146,11 @@ const data: User[] = [
 ## 🖼️ Demo & Screenshots
 
 ![DataTable Demo](./screenshots/datatable-demo.gif)
+
 > _Add your own GIF or screenshot here!_
 
 **Storybook Preview:**  
-[https://your-chromatic-or-vercel-link](https://your-chromatic-or-vercel-link)
+https://68a8be7a5a4a7dcdbd203895-ubxvwepjia.chromatic.com/
 
 ---
 
