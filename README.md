@@ -145,9 +145,13 @@ const data: User[] = [
 
 ## 🖼️ Demo & Screenshots
 
-![DataTable Demo](./screenshots/datatable-demo.gif)
+![DataTable Demo](./Screenshots/Demo.DataTable.png)
 
-> _Add your own GIF or screenshot here!_
+> _Above: Default DataTable view._
+
+![Loading State](./Screenshots/DataTable.LoadingView.png)
+
+> _Above: DataTable loading state._
 
 **Storybook Preview:**  
 https://68a8be7a5a4a7dcdbd203895-ubxvwepjia.chromatic.com/
