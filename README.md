@@ -71,8 +71,9 @@ const columns: Column<User>[] = [
 ];
 
 const data: User[] = [
-  { id: 1, name: "John Doe", email: "john@example.com" },
-  { id: 2, name: "Jane Smith", email: "jane@example.com" },
+  { id: 1, name: "Amit Sharma", email: "amit.sharma@example.com" },
+  { id: 2, name: "Priya Singh", email: "priya.singh@example.com" },
+];
 ];
 
 <DataTable<User>
@@ -110,8 +111,8 @@ const data: User[] = [
 
 - All states (loading, empty, selection, sorting) are covered.
 - Example test for row selection and loading state.
-- **Test file:**  
-  See [`src/components/DataTable/DataTable.test.tsx`](src/components/DataTable/DataTable.test.tsx) for details.
+- **Test file:**
+-  See [`src/components/DataTable/DataTable.test.tsx`](src/components/DataTable/DataTable.test.tsx) for details.  
 - To run tests:
   ```sh
   npm run test
@@ -173,6 +174,15 @@ If I had more time, I would add custom sort functions and more advanced keyboard
 - _...and more descriptive commits!_
 
 ---
+
+---
+## ✅ Submission Checklist
+
+- [x] Clear folder structure
+- [x] README with setup and approach
+- [x] Storybook preview link
+- [x] Screenshots/GIFs
+- [x] Unit tests
 
 ## 🤝 Thanks for reviewing!
 
